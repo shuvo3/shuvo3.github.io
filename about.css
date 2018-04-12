@@ -1,0 +1,118 @@
+body{
+
+}
+.add_image{
+	background: url(Shuvo.jpg) no-repeat;
+	-webkit-background-size:cover;
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+	max-width: 100%;
+
+
+}
+.devide{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.devider{
+	float: right;
+	width: 60%;
+	color: white;
+	
+
+
+}
+
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align-align: center;
+    overflow: hidden;
+
+}
+li{
+    display: inline-block;
+
+}
+li a{
+	display: block;
+	text-decoration: none;
+	width: 60px;
+	padding: 10px 16px;
+	color: white;
+	background: black;
+	text-align: center;
+	vertical-align: center;
+	border-top: 4rem;
+	margin-top: 2rem;
+	opacity: .7;
+	filter: alpha(opacity = 50);
+
+
+}
+li a:hover{
+	color: white;
+	opacity: 1;
+	filter: alpha(opacity = 100);
+}
+
+.about{
+	color: white;
+	height: 50px;
+	width :100px;
+	transition:width 3s;
+	background: black;
+	text-align: center;
+
+
+}
+.about:hover{
+	width: 100%;
+	text-align: center;
+	opacity: .7;
+}
+
+
+.container{
+	
+	position: relative;
+	width: 50%;
+	max-width: 300px;
+	position: absolute;
+	color: white;
+	float: left;
+
+
+}
+.image{
+	display: block;
+	height: auto;
+	width: 100%;
+
+
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.container:hover .overlay {
+  opacity: 1;
+
+}
+
+
+

@@ -1,0 +1,91 @@
+body{
+
+}
+.add_image{
+	background: url(Shuvo_1.jpg) no-repeat;
+	-webkit-background-size:cover;
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+	max-width: 100%;
+
+}
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align-align: center;
+    overflow: hidden;
+
+}
+li{
+    display: inline-block;
+
+}
+li a{
+	display: block;
+	text-decoration: none;
+	width: 60px;
+	padding: 10px 16px;
+	color: white;
+	background: black;
+	text-align: center;
+	vertical-align: center;
+	border-top: 4rem;
+	margin-top: 2rem;
+	opacity: .7;
+	filter: alpha(opacity = 50);
+
+
+}
+li a:hover{
+	color: white;
+	opacity: 1;
+	filter: alpha(opacity = 100);
+}
+
+
+.skill{
+	color: white;
+	height: 50px;
+	width :100px;
+	transition:width 4s;
+	background: black;
+	text-align: center;
+
+
+}
+.skill:hover{
+	width: 100%;
+	text-align: center;
+	opacity: .8;
+}
+
+.skills{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.skill_item{
+	float: left;
+	width: 31%;
+	height: auto;
+	margin-left: .5rem;
+	color: #0066ff;
+	border: .2rem;
+	border-color: white;
+	border-style: solid;
+	background: white;
+	position: block;
+	opacity: .7;
+	
+}
+.skill_item:hover{
+	color: black;
+	float: left;
+	width: 31%;
+	opacity: 1;
+	margin-left: .5rem;
+	transition:height 4s;
+	border-radius: 12px;
+}
